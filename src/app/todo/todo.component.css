@@ -1,0 +1,127 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icon@1.10.3/font/bootstrap-icon.css");
+
+.todo-block{
+    min-height: 400px;
+    background: #fff;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000052;
+}
+.todo-header{
+    background: #5dbac7;
+    padding: 10px;
+    border-radius: 7px;
+}
+.todo-input{
+    margin-right: 10px;
+    padding: 7px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.del-btn, .edit-btn{
+    display: flex;
+    justify-content: center;
+}
+.todo-single{
+    padding: 5px 0;
+    justify-content: space-between;
+}
+.todo-single:last-child{
+    border: none;
+}
+.todo-single p{
+    margin: 0px;
+    padding: 5px;
+}
+.todo-checkbox{
+    height: 20px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+h5{
+    background: #eee;
+    padding: 5px;
+    color: #3a3a3a;
+}
+.todo-list-done .todo-single p{
+    text-decoration: line-through;
+} */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+.todo-block {
+    min-height: 400px;
+    background: #fff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-header {
+    background: #5dbac7;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+
+.todo-input {
+    border: 1px solid #ced4da;
+}
+
+.todo-single {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.todo-single:last-child {
+    border: none;
+}
+
+.todo-single p {
+    margin: 0;
+    word-break: break-word;
+}
+
+h5 {
+    background: #f8f9fa;
+    padding: 10px;
+    color: #3a3a3a;
+    border-radius: 5px;
+}
+
+.todo-list-done .todo-single p {
+    text-decoration: line-through;
+}
+
+@media (max-width: 576px) {
+    .todo-block {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .todo-header {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: .375rem .5rem;
+        font-size: .875rem;
+    }
+
+    .todo-single {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .todo-single p {
+        margin: 5px 0;
+    }
+
+    .todo-single .btn {
+        margin-top: 5px;
+    }
+}
